@@ -1,19 +1,13 @@
 
-Namn: &lt;h1> dsfdsfds&lt;/h2><br> 
-email: &lt;h1> dsfdsfds&lt;/h2><br> <br> <br>
 
-Namn: ssss<br> 
-email: sssss<br> <br> <br>
+Namn: simon<br>
+Email: simme@live.se<br>
+Phone: 12345<br>
+Comment: Hej nu funkar det
+<br> <br> <br>
 
-Namn: ss<br> 
-email: sss<br> <br> <br>
-
-Namn: Simon<br> 
-email: simme.97a@live.se<br> <br> <br>
-
-Namn: s<br> 
-email: s<br> <br> <br>
-
-Namn: Simon<br> 
-email: simme.97@live.se<br> <br> <br>
+Namn: test<br>
+Email: test@test.se<br>
+Phone: 12345<br>
+Comment: hallå igen<br> <br> <br>
 
