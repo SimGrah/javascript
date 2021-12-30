@@ -2,3 +2,8 @@
 h1{
     color:red;
 }
+section{
+    width: 300px;
+    margin: auto;
+    font-size: 20px;
+}

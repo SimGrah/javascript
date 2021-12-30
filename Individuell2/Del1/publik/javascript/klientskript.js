@@ -1,7 +1,7 @@
 
 
     function mainForm() {
-        if (firstNameValidate() == true&& emailValidate() == true) {
+        if (firstNameValidate() == true && emailValidate() == true && commentvalidate() == true) {
            
             document.getElementById("sub").disabled = false;
     
@@ -16,11 +16,11 @@
         let firstName = document.getElementById('firstName'); 
     
         if (testName.test(firstName.value)) { 
-            firstName.style.background = 'green';
+            firstName.style.background = 'LightGreen';
             return true  
         }
         else { 
-            firstName.style.background = 'red';
+            firstName.style.background = 'LightCoral';
             return false
         }
     }
@@ -30,15 +30,29 @@
         let email = document.getElementById("emailAdress");
     
         if (testEmail.test(email.value)) {
-            email.style.background = 'green';
+            email.style.background = 'LightGreen';
             return true
         } else {
-            email.style.background = 'red';
+            email.style.background = 'LightCoral';
             return false
     
         }
     }
+
+    function commentvalidate() {
+        let comment = document.getElementById('comment'); 
     
+        if (comment.value == 0) { 
+            comment.style.background = 'LightCoral';
+            return false  
+        }
+        else { 
+            comment.style.background = 'LightGreen';
+            return true
+        }
+    }
+    
+   
     
     
     
