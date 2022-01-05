@@ -11,7 +11,13 @@ socket.on('chat-message', data => {
   appendMessage(`${data.name}: ${data.message}`)
 })
 
+socket.on('user-connected', name => {
+  appendMessage(`${name} har gått med i chatten`)
+})
 
+socket.on('user-disconnected', name => {
+  appendMessage(`${name} har lämnat chatten`)
+})
 
 messageForm.addEventListener('submit', e => {
   e.preventDefault()
@@ -19,6 +25,7 @@ messageForm.addEventListener('submit', e => {
   appendMessage(`Du: ${message}`)
   socket.emit('send-chat-message', message)
   messageInput.value = ''
+  
 })
 
 function appendMessage(message) {

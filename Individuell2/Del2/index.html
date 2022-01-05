@@ -13,6 +13,7 @@
       margin: 0;
       display: flex;
       justify-content: center;
+      background-color: rgb(247, 247, 247);
     }
 
     #message-container {
@@ -21,19 +22,18 @@
     }
 
     #message-container div {
-      background-color: #CCC;
+      background-color: rgb(202, 193, 253);
       padding: 5px;
     }
 
     #message-container div:nth-child(2n) {
-      background-color: #FFF;
+      background-color: rgb(247, 247, 247);
     }
 
     #send-container {
       position: fixed;
       padding-bottom: 30px;
       bottom: 0;
-      background-color: white;
       max-width: 1200px;
       width: 80%;
       display: flex;
@@ -41,6 +41,8 @@
 
     #message-input {
       flex-grow: 1;
+      border-radius: 10px;
+      height: 20px;
     }
   </style>
 </head>
