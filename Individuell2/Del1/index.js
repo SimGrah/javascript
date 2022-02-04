@@ -10,6 +10,7 @@ app.use(express.static("publik"));
 let fs = require("fs"); 
 app.get("/", (req, res) => {
     fs.readFile("form.html", function(err, htmlData) {
+        
 
         fs.readFile("data.txt", function(err, textData) {
             let htmlText = htmlData.toString();
